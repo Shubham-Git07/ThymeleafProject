@@ -6,7 +6,19 @@
 </head>
 <body>
 
-<h2>All Tasks</h2>
+<h2 align="center">ToDo Application</h2>
+<div>
+    <form action="/"
+          method="post">
+        <div>
+            <input type="text" name="title" placeholder="Add a new task" required>
+        </div>
+        <div>
+            <button type="submit">Add</button>
+        </div>
+    </form>
+</div>
+
 <div th:each="tasks : ${allTasks}">
     <p>Id : <span th:text="${tasks.id}"></span></p>
     <p>Title : <span th:text="${tasks.title}"></span></p>
