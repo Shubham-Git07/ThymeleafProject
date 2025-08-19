@@ -21,7 +21,7 @@ A simple To-Do List web application built using **Spring Boot**, **Thymeleaf**, 
 |-------------|---------------------|
 | Backend     | Java, Spring Boot   |
 | Frontend    | Thymeleaf, HTML/CSS |
-| Database    | MySQL (or H2 for testing) |
+| Database    | MySQL/Postgre (or H2 for testing) |
 | Build Tool  | Maven               |
 
 ---
